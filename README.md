@@ -69,8 +69,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ###本地测试环境
 yarn run start --test
+
 ###本地预生产环境
 yarn run start --pre
+
 ###本地生产环境
 yarn run start --prod
 
@@ -78,8 +80,10 @@ yarn run start --prod
 
 ###线上测试环境
 yarn run build --test
+
 ###线上预生产环境
 yarn run build --pre
+
 ###线上生产环境
 yarn run build --prod
 
