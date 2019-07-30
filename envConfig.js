@@ -3,6 +3,7 @@
 const chalk = require('chalk');
 const configArgv = JSON.parse(process.env.npm_config_argv);
 const original = configArgv.original.slice(2);
+console.log(configArgv)
 const stage = original[0] ? original[0].replace(/-/g, '') : 'test';
 let envName = {
   test: 'http://webapi.test.sxmaps.com/',

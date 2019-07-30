@@ -68,18 +68,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ###本地测试环境
-yarn start --test
+yarn run start --test
 ###本地预生产环境
-yarn start --pre
+yarn run start --pre
 ###本地生产环境
-yarn start --prod
+yarn run start --prod
 
 
 
 ###线上测试环境
-yarn build --test
+yarn run build --test
 ###线上预生产环境
-yarn build --pre
+yarn run build --pre
 ###线上生产环境
-yarn build --prod
+yarn run build --prod
 
