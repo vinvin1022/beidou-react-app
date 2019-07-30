@@ -1,0 +1,55 @@
+.warReport {
+    min-height: 100%;
+    .tableConent{
+        padding-top:48px
+    }
+    .tableRender{
+        width: 100%;
+        overflow-x:auto;
+        table{
+            min-width: 600px;
+            width: 100%;
+            border-collapse:collapse;
+            font-size: 12px;
+            th{
+                background-color: #2164b8;
+                padding: 6px;
+                color: #fff;
+            }
+            td{
+                padding: 6px;
+                color: rgba(0,0,0,0.87);
+            }
+            td.showName{
+                width: 150px;
+                text-align: left;
+            }
+            td.deptNameow{
+                width: 80px;
+            }
+            td.tarAmoD{
+                width: 80px;
+            }
+            
+            .isAll td{
+                color: #fff;
+                background-color: #4d83c6;
+            }
+            .isAll:first-child td {
+                background-color: #3773bf;
+            }
+        }
+    }
+    .h1Title {
+        padding: 3px 16px;
+        font-size: 16px;
+        background-color: #f5f5f5;
+        line-height: 35px;
+        text-align: left;
+        font-size: 12px;
+        .updateTime {
+            color: #9c9c9c;
+        }
+    }
+   
+}
